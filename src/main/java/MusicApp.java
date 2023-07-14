@@ -13,7 +13,7 @@ public class MusicApp {
          */
         int volume = (MIN_VOLUME + MAX_VOLUME) / 2;
         MusicPlayer player = new MusicPlayer(INSTRUMENT_PIANO, volume);
-//        player.run();
+        player.run();
 
         /*
          * Play drum tones
