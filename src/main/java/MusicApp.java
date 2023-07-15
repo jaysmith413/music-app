@@ -11,13 +11,19 @@ public class MusicApp {
         /*
          * Play piano tones
          */
+
+
         int volume = (MIN_VOLUME + MAX_VOLUME) / 2;
         MusicPlayer player = new MusicPlayer(INSTRUMENT_PIANO, volume);
         player.run();
 
+
+
+
         /*
          * Play drum tones
          */
+        System.out.println("Now percussion! ");
         volume = MAX_VOLUME;
         player = new MusicPlayer(INSTRUMENT_DRUM, volume);
         player.run();
